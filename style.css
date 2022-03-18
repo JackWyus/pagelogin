@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: block;
+    font-size: 30px;
+    background-image: linear-gradient(to right,#9929ea, #5808fb);
+}
+
+#MenuHorizontal{
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+#MenuHorizontal li{
+    height: 60px;
+    margin: 0 50px;   
+    display: inline; 
+}
+
+#MenuHorizontal ul li a{
+    text-decoration: none; /*Retirando Características estéticas do Link*/
+    line-height: 55px;
+    display: inline-block;
+    color: #ece8ee; /*Cor do texto*/
+    text-shadow: black 2px 1px 4px; /*Sombreamento do texto do link*/
+}
+
+/* Estilização do Elemento Registro */
+
+#MenuHorizontal ul li:last-child a{
+    /* Posicionando o Elemento no Canto direito com o "float+top e transform"*/
+
+    float: right;
+    display: inline-block;
+    top: 50%;
+    transform: translateY( -15%); 
+    padding: 10px 15px;
+    border: solid 3px ;
+    border-radius: 20px;
+    background-color: #5808fb;
+}
+
+#MenuHorizontal ul li:hover a{
+    color: rgb(179, 21, 21);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
