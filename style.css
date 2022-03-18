@@ -70,10 +70,9 @@ main{
     background-color: white;
 }
 
-
 form{
-    width: 300px;
-    height: 500px;
+    width: 450px;
+    height: 650px;
     margin: 0 auto;
     position: relative;
     top: 50%;
@@ -82,5 +81,22 @@ form{
     border: solid red 1px;
     border-radius: 25px;
     background-color: aquamarine;
+}
+
+form > h2{
+    margin: 50px 0 50px 0;
+    text-align: center;
+    color: white;
+}
+
+/* Estilziação dos Inputs de entrada */
+
+.caixa{
+    width: 90%;
+    margin: 10px 0 20px 3px;        
+    padding: 20px 32px 20px 5px;
+    text-align: left;
+    border: solid 1px red;
+    border-radius: 25px;
 }
 
