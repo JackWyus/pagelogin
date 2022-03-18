@@ -21,7 +21,7 @@ header{
 }
 
 #MenuHorizontal{
-    max-width: 80%;
+    max-width: 98%;
     margin: 0 auto;
     display: block;
     text-align: center;
@@ -65,7 +65,7 @@ header{
 
 main{
     padding-top: 100px;
-    text-align: center; /* */
+    text-align: center; /*Centralizando o Formulário em relação ao pai*/
     font-size: 30px;
     background-color: white;
 }
@@ -79,6 +79,8 @@ form{
     top: 50%;
     transform: translateY(-10%); 
     text-align: left; /* Colocando os elemento do formulário na totalmente na Esquerda */
+    border: solid red 1px;
+    border-radius: 25px;
     background-color: aquamarine;
 }
 
