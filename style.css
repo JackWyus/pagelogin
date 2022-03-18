@@ -21,7 +21,7 @@ header{
 }
 
 #MenuHorizontal{
-    max-width: 90%;
+    max-width: 80%;
     margin: 0 auto;
     display: block;
     text-align: center;
@@ -69,6 +69,7 @@ main{
     font-size: 30px;
     background-color: white;
 }
+
 
 form{
     width: 300px;
