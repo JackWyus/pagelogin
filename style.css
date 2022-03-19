@@ -78,7 +78,7 @@ main{
 
 form{
     width: 550px;
-    height: 750px;
+    height: 800px;
     margin: 0 auto;
     position: relative;
     top: 50%;
@@ -106,6 +106,7 @@ form > h2{
     margin: 15px 0 25px 4px;        
     padding: 25px 32px 25px 5px;
     text-align: left;
+    font-size: 20px;
     border: solid 3px rgb(88, 13, 13);
     border-radius: 35px;
     color: rgb(54, 54, 54);
@@ -115,7 +116,7 @@ form > h2{
 #link-form{
     margin: 15px 0px 50px 0px;
     text-align: right;
-    font-size: 18px;
+    font-size: 20px;
     /*background-color: #ece8ee;*/
 }
 
@@ -129,10 +130,14 @@ form > h2{
 
 /* Estilização do botão de Login*/
 
+#teste{
+    background-color: #6e0aa0;
+}
+
 #bt{
     width: 97%;
-    margin-left: -6px;
-    padding: 25px 25px;
+    margin: 0px 8px 40px 8px;
+    padding: 25px 0px;
     font-size: 20px;
     cursor: pointer;
     border: solid 2px rgb(194, 190, 190);
@@ -145,5 +150,12 @@ form > h2{
     background-color: #3a0209;
     border-color: #3a0209;
     color: white;
+}
+
+
+p{
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
 }
 
